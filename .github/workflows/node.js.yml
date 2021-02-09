@@ -45,4 +45,4 @@ jobs:
           cd ~/nodejs-github-demo
           git pull
           npm install --production
-          node index.js
+          pm2 restart node-app
